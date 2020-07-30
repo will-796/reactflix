@@ -23,3 +23,13 @@ body {
 a {
   color: inherit;
 } 
+
+#root {
+  display: flex;
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  flex-direction: column;
+}
+
+#app {
+  background-color: #141414;
+}
